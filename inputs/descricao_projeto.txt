@@ -1,0 +1,26 @@
+PROJETO: Previsão de Vendas de Sorvete com Machine Learning
+AUTOR: Davidson Rafael
+DATA: 27/02/2026
+
+DESCRIÇÃO DO PROBLEMA:
+A Gelato Mágico, uma sorveteria em uma cidade litorânea, precisa otimizar sua produção diária 
+de sorvetes. Atualmente, a produção é baseada na intuição do proprietário, resultando em:
+- Desperdício em dias frios (superprodução)
+- Vendas perdidas em dias quentes (subprodução)
+
+OBJETIVO:
+Desenvolver um modelo de Machine Learning que preveja a quantidade de sorvetes vendidos 
+baseado na temperatura do dia, permitindo:
+- Redução de desperdício em 30%
+- Aumento de vendas em 20%
+- Otimização de estoque e produção
+
+FONTES DE DADOS:
+- Dados históricos de vendas (últimos 2 anos)
+- Registros de temperatura da estação meteorológica local
+- Feriados e eventos especiais (para análise futura)
+
+MÉTRICAS DE SUCESSO:
+- Erro médio absoluto (MAE) < 50 sorvetes
+- R² > 0.85
+- Implementação em tempo real com API

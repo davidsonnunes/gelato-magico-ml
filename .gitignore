@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Azure ML
+mlruns/
+.azureml/
+azureml-logs/
+
+# Dados (opcional)
+# *.csv
+# dados/*.csv
+
+# Modelos (opcional)
+# *.pkl
+# *.joblib
+# models/*.pkl
+
+# Logs
+*.log
+logs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Sistema
+.DS_Store
+Thumbs.db
