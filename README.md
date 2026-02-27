@@ -80,7 +80,7 @@ A **Gelato Mágico** é uma sorveteria em uma cidade litorânea que precisava ot
 
 #### Jobs do Designer
 <div align="center">
-  <img src="docs/prints/06_experimento_designer_jobs.png" alt="Jobs Designer" width="600"/>
+  <img src="inputs/prints/06_experimento_designer_jobs.png" alt="Jobs Designer" width="600"/>
   <p><em>Figura 6: Jobs executados no Designer</em></p>
 </div>
 
