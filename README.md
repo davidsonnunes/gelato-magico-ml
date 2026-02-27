@@ -9,7 +9,6 @@
 - [Visão Geral](#-visão-geral)
 - [Problema de Negócio](#-problema-de-negócio)
 - [Modelos Desenvolvidos no Azure](#-modelos-desenvolvidos-no-azure)
-- [Resultados e Métricas](#-resultados-e-métricas)
 - [Pipeline Local em Python](#-pipeline-local-em-python)
 - [Comparação de Modelos](#-comparação-de-modelos)
 - [Insights para o Negócio](#-insights-para-o-negócio)
@@ -23,7 +22,7 @@
 A **Gelato Mágico** é uma sorveteria em uma cidade litorânea que precisava otimizar sua produção diária. Este projeto desenvolve modelos de Machine Learning para prever vendas baseadas na temperatura, reduzindo desperdícios e maximizando lucros.
 
 <div align="center">
-  <img src="docs/prints/04_modelo_autoML_votingsemble.png" alt="Modelo AutoML" width="600"/>
+  <img src="inputs/prints/04_modelo_autoML_votingsemble.png" alt="Modelo AutoML" width="600"/>
   <p><em>Figura 1: Modelo VotingEnsemble treinado no Azure AutoML</em></p>
 </div>
 
@@ -45,25 +44,25 @@ A **Gelato Mágico** é uma sorveteria em uma cidade litorânea que precisava ot
 
 #### Visão Geral do Experimento
 <div align="center">
-  <img src="docs/prints/02_experimento_autoML_jobs.png" alt="Jobs do AutoML" width="600"/>
+  <img src="inputs/prints/02_experimento_autoML_jobs.png" alt="Jobs do AutoML" width="600"/>
   <p><em>Figura 2: Jobs executados no experimento AutoML</em></p>
 </div>
 
 #### Comparação de Modelos
 <div align="center">
-  <img src="docs/prints/03_autoML_modelos_comparacao.png" alt="Comparação AutoML" width="600"/>
+  <img src="inputs/prints/03_autoML_modelos_comparacao.png" alt="Comparação AutoML" width="600"/>
   <p><em>Figura 3: Comparação entre diferentes algoritmos testados</em></p>
 </div>
 
 #### Modelo Vencedor: VotingEnsemble
 <div align="center">
-  <img src="docs/prints/04_modelo_autoML_votingsemble.png" alt="VotingEnsemble" width="600"/>
+  <img src="inputs/prints/04_modelo_autoML_votingsemble.png" alt="VotingEnsemble" width="600"/>
   <p><em>Figura 4: Detalhes do modelo VotingEnsemble</em></p>
 </div>
 
 #### Métricas Detalhadas do AutoML
 <div align="center">
-  <img src="docs/prints/05_metricas_autoML_detalhadas.png" alt="Métricas AutoML" width="600"/>
+  <img src="inputs/prints/05_metricas_autoML_detalhadas.png" alt="Métricas AutoML" width="600"/>
   <p><em>Figura 5: Métricas completas do melhor modelo</em></p>
 </div>
 
@@ -87,19 +86,19 @@ A **Gelato Mágico** é uma sorveteria em uma cidade litorânea que precisava ot
 
 #### Pipeline Completo
 <div align="center">
-  <img src="docs/prints/07_pipeline_designer_completo.png" alt="Pipeline Designer" width="600"/>
+  <img src="inputs/prints/07_pipeline_designer_completo.png" alt="Pipeline Designer" width="600"/>
   <p><em>Figura 7: Pipeline visual com Regressão Linear</em></p>
 </div>
 
 #### Dataset com Previsões
 <div align="center">
-  <img src="docs/prints/08_scored_dataset_previsoes.png" alt="Scored Dataset" width="600"/>
+  <img src="inputs/prints/08_scored_dataset_previsoes.png" alt="Scored Dataset" width="600"/>
   <p><em>Figura 8: Resultados das previsões (Scored Labels)</em></p>
 </div>
 
 #### Métricas do Designer
 <div align="center">
-  <img src="docs/prints/09_metricas_designer.png" alt="Métricas Designer" width="400"/>
+  <img src="inputs/prints/09_metricas_designer.png" alt="Métricas Designer" width="400"/>
   <p><em>Figura 9: Métricas do modelo no Designer</em></p>
 </div>
 
@@ -118,13 +117,13 @@ Além dos modelos no Azure, desenvolvemos um pipeline completo em Python com:
 
 ### Análise Exploratória
 <div align="center">
-  <img src="docs/prints/analise_exploratoria.png" alt="Análise Exploratória" width="600"/>
+  <img src="inputs/prints/analise_exploratoria.png" alt="Análise Exploratória" width="600"/>
   <p><em>Figura 10: Visualização da relação temperatura vs vendas</em></p>
 </div>
 
 ### Resultados do Modelo Local
 <div align="center">
-  <img src="docs/prints/resultados_modelo.png" alt="Resultados" width="600"/>
+  <img src="inputs/prints/resultados_modelo.png" alt="Resultados" width="600"/>
   <p><em>Figura 11: Previsões do modelo treinado localmente</em></p>
 </div>
 
@@ -199,6 +198,8 @@ pip install -r requirements.txt
 # Execute o pipeline completo
 python src/main.py 
 ```
+
+## Estrutura do Projeto
 gelato-magico-ml/  
 ├── 📁 inputs/  
 │   ├── 📝 descricao_projeto.txt  
@@ -213,6 +214,8 @@ gelato-magico-ml/
 │       ├── 07_pipeline_designer_completo.png  
 │       ├── 08_scored_dataset_previsoes.png  
 │       ├── 09_metricas_designer.png  
+│       ├── analise_exploratoria.png      
+│       └── resultados_modelo.png    
 │  
 ├── 📁 src/  
 │   └── main.py  
@@ -225,7 +228,7 @@ gelato-magico-ml/
 └── 📄 .gitignore  
 
 
-👨‍💻 Autor
+## 👨‍💻 Autor
    
 <div align="center"> <h3>Davidson Rafael</h3> <p>Cientista de Dados | Microsoft Certified: Azure Data Scientist</p> <a href="https://www.linkedin.com/in/davidson-rafael/"> <img src="https://img.shields.io/badge/LinkedIn-Perfil-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn"> </a> <a href="https://github.com/davidsonnunes/gelato-magico-ml"> <img src="https://img.shields.io/badge/GitHub-Repositório-black?style=for-the-badge&logo=github" alt="GitHub"> </a> </div>
 📝 Licença
